@@ -1,5 +1,5 @@
 import styles from "@/app/ui/login/login.module.css";
-import LoginForm from "../ui/login/loginForm/loginForm";
+import LoginForm from "../ui/login/loginform/loginform";
 
 const LoginPage = () => {
   return (
