@@ -4,7 +4,7 @@ import { MdOutlineSpaceDashboard } from "react-icons/md";
 import  { MdLogout } from "react-icons/md";
 import styles from "./sidebar.module.css";
 import Image from "next/image";
-import MenuLink from "./menuLink/menulink";
+import MenuLink from "./menulink/menulink";
 import { auth, signOut } from "@/app/auth";
 
 const menuItems = [
