@@ -1,0 +1,49 @@
+/* :root{
+    --bg: #151c2c;
+    --bgSoft: #181818;
+    --text: white;
+    --textSoft: #b7bac1;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color : var(--text);
+
+}
+
+a{
+    color:inherit;
+    text-decoration: seashell;
+} */
+
+:root{
+    --bg: #E8F1FF;
+    --bgSoft: #FFFFFF;
+    --text: black;
+    --textSoft: #A8A9AA;
+    --accent: #5661F6;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color : var(--text);
+    
+
+}
+
+a{
+    color:inherit;
+    text-decoration: seashell;
+}

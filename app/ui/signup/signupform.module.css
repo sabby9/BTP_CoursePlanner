@@ -1,0 +1,63 @@
+.form{
+    background-color: var(--bgSoft);
+    padding: 50px;
+    border-radius:10px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.form input {
+    width:100%;
+   padding:20px;
+   border: 1px solid black;
+   border-radius:5px;
+   background-color: var(--bg); 
+   color: var(--text);
+}
+
+.passwordWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.passwordTooltip {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: var(--text);
+    padding: 0.5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.passwordWrapper:hover .passwordTooltip {
+    opacity: 1;
+}
+
+.form button{
+    width:100%;
+    padding: 20px;
+    background-color: var(--accent);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
