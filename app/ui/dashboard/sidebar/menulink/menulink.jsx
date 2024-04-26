@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import styles from './menuLink.module.css'
+import styles from './menulink.module.css'
 import { usePathname } from 'next/navigation'
 
 const MenuLink = ({item}) => {
