@@ -10,7 +10,7 @@ import { IoIosArrowDropup } from "react-icons/io";
 
 
 
-const feedbackPage = () => {
+const FeedbackPage = () => {
   
   const [courses, setCourseList] = useState<string[]>([]);
   const [ifLoadCourses, setifLoadCourses] = useState<boolean>(false);
@@ -210,4 +210,4 @@ const feedbackPage = () => {
   );
 };
 
-export default feedbackPage;
+export default FeedbackPage;
